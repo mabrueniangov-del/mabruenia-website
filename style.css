@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: white;
+}
+
+/* HEADER */
+header {
+    background-color: royalblue;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    margin: 5px 0 0 0;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: crimson;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: darkred;
+}
+
+/* MAIN CONTAINER */
+.container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* COLUMNS */
+.left-column,
+.center-column,
+.right-column {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-top: 5px solid royalblue;
+}
+
+h2 {
+    color: royalblue;
+    border-bottom: 2px solid crimson;
+    padding-bottom: 5px;
+}
+
+/* IMAGE */
+img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* FOOTER */
+footer {
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+
+    /* SEE MORE SECTION */
+.see-more {
+    background-color: #f4f4f4;
+    padding: 40px;
+    margin: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.see-more h2 {
+    color: royalblue;
+    margin-bottom: 30px;
+}
+
+/* CARD CONTAINER */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+/* INDIVIDUAL CARD */
+.card {
+    background-color: white;
+    padding: 25px;
+    width: 180px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border: 2px solid crimson;
+}
+
+/* ICON STYLE */
+.icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+}
